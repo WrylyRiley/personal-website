@@ -9,6 +9,7 @@ body {
   --nav-bar-color: #343A40;
   background-color: var(--bg-color);
   color: var(--text);
+  transition: all 1s ease;
 }
 
 .body-light {
@@ -17,6 +18,7 @@ body {
   --nav-link-unselected: #adb5bd;
   --nav-link-hover: #6c757d;
   --nav-bar-color: #F8F9FA;
+  transition: all 1s ease;
 }
 
 h1 {
