@@ -1,27 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
+
 /* Greyscale Palette */
 /* https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529 */
 body {
-  /* variables */
-  --bg-color: #212529;
-  --text: #F8F9FA;
-  --nav-link-unselected: #6C757D;
-  --nav-link-hover: #DEE2E6;
-  --nav-bar-color: #343A40;
-  background-color: var(--bg-color);
+  /* Color Variables */
+  --bg: #212529;
+  --text: #f8f9fa;
+  --white-text: #f8f9fa;
+  --black-text: #212529;
+  --nav-link-unselected: #6c757d;
+  --nav-link-hover: #dee2e6;
+  --nav-bar-color: #343a40;
+  --footer-color: #212529;
+  --dark-slider-light-mode: #e9c46a;
+
+  --js-yellow: #f7df1e;
+  --vue-green: #42b883;
+  --node-green: #215732;
+  --react-blue: #5fd9fb;
+  --ts-blue: #3178c6;
+  --css-blue: #264de4;
+
+  --rocket-purple: #5b3c9c;
+  --rocket-red: #c8102e;
+
+  /* Fonts */
+  background-color: var(--bg);
   color: var(--text);
-  transition: all 1s ease;
+  transition: background-color 1s ease;
+  font-family: "Kanit", sans-serif;
 }
 
 .body-light {
   --text: #212529;
-  --bg-color: #F8F9FA;
+  --bg: #f8f9fa;
   --nav-link-unselected: #adb5bd;
   --nav-link-hover: #6c757d;
-  --nav-bar-color: #F8F9FA;
-  transition: all 1s ease;
+  --nav-bar-color: #e9ecef;
+  --footer-color: #f8f9fa;
+  transition: background-color 1s ease;
 }
 
 h1 {
   margin-block-start: 0px;
   margin-block-end: 0px;
+  font-size: 10vmax;
+}
+
+h2 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 5vmax;
+}
+
+h3 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 2vmax;
+  line-height: 3rem;
+  text-align: center;
+}
+
+p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 1.1vmax;
+}
+
+/* Animations */
+
+@keyframes smolShakeUp {
+  0% {
+    transform: translateX(0rem);
+  }
+  50% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+.pill {
+  border-radius: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.summer-sunrise {
+  /* background-color: var(--rocket-purple); */
+  color: var(--white-text);
+  border: 2px solid var(--text);
+  background-image: linear-gradient(
+    45deg,
+    var(--rocket-purple),
+    var(--rocket-red)
+  );
+}
+
+.react-blue {
+  background-color: var(--react-blue);
+  color: var(--black-text);
+}
+
+.ts-blue {
+  background-color: var(--ts-blue);
+  color: var(--black-text);
+}
+
+.css-blue {
+  background-color: var(--css-blue);
+  color: var(--white-text);
+}
+
+.js-yellow {
+  background-color: var(--js-yellow);
+  color: var(--black-text);
+}
+
+.vue-green {
+  background-color: var(--vue-green);
+  color: var(--black-text);
+}
+
+.node-green {
+  background-color: var(--node-green);
+  color: var(--white-text);
 }

@@ -13,20 +13,6 @@ defineProps<{
   </RouterLink>
 </template>
 
-<script lang="ts">
-import router from "@/router";
-import { reactive } from "vue";
-
-const currentRoute = reactive(router.currentRoute.value);
-export default {
-  data() {
-    return {
-      currentRoute: currentRoute.path,
-    };
-  },
-};
-</script>
-
 <style lang="css" scoped>
 .router-link-exact-active .nav-button {
   color: var(--text);

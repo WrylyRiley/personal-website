@@ -1,21 +1,24 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-import MainHeader from "./components/Header/MainHeader.vue";
-import MainFooter from "./components/Footer/MainFooter.vue";
+import HeaderMain from "./components/Header/HeaderMain.vue";
+import FooterMain from "./components/Footer/FooterMain.vue";
 </script>
 
 <template>
-  <MainHeader />
-  <RouterView class="main-bg" />
-  <MainFooter />
+  <HeaderMain />
+  <div class="main-bg">
+    <RouterView />
+  </div>
+  <FooterMain />
 </template>
 
 <style lang="css" scoped>
 .main-bg {
   background-color: var(--light-bg-color);
-  height: calc(100vh - 75px);
+  height: calc(100vh - 85px);
   width: 100vw;
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
+  transition: all 1s ease;
 }
 </style>
