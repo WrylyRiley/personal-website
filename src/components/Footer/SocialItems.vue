@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="center-center">
     <a href="https://www.linkedin.com/rileybauerdev">
       <LinkedInIcon class="icon" />
     </a>
@@ -13,15 +13,20 @@
 </template>
 
 <script setup lang="ts">
-import LinkedInIcon from "@/assets/icons/LinkedInIcon.vue";
-import TwitterIcon from "@/assets/icons/TwitterIcon.vue";
+import LinkedInIcon from "@/assets/icons/BrandLogos/LinkedInIcon.vue";
+import TwitterIcon from "@/assets/icons/BrandLogos/TwitterIcon.vue";
 import EmailIcon from "@/assets/icons/EmailIcon.vue";
 </script>
 
 <style lang="css" scoped>
+a {
+  text-decoration: none;
+  margin-right: 0rem;
+}
 .icon {
-  height: 1rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   fill: var(--text);
+  margin: 0;
 }
 </style>

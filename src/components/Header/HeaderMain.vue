@@ -1,5 +1,5 @@
 <template>
-  <header class="header-main">
+  <header class="header-main center-center">
     <HeaderItem
       v-for="headerItem in listOfHeaderItems"
       :key="'HeaderItem - ' + headerItem.title"
@@ -25,13 +25,10 @@ const listOfHeaderItems: {
 
 <style lang="css" scoped>
 .header-main {
-  display: flex;
   position: sticky;
   top: 0;
   right: 0;
   left: 0;
-  align-items: center;
-  justify-content: center;
   background-color: var(--nav-bar-color);
   transition: background-color 1s ease;
 }

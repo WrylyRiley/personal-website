@@ -2,13 +2,13 @@
   <footer>
     <div class="dark-mode-container">
       <DarkModeSwitch />
-      <div class="dark-mode-hint">
+      <div class="dark-mode-hint center-center">
         <ArrowleftIcon class="dark-mode-pointer" />
         <p>Don't like dark mode? It's ok to have opinions.</p>
       </div>
     </div>
     <div class="social-container">
-      <div class="social-hint">
+      <div class="social-hint center-center">
         <p>Keep in touch!</p>
         <ArrowUpIcon class="social-pointer" />
       </div>
@@ -46,9 +46,6 @@ footer {
 
 .dark-mode-hint {
   margin-left: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 1.5rem;
 }
 
@@ -61,9 +58,6 @@ footer {
 
 .social-hint {
   margin-right: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 1.5rem;
 }
 

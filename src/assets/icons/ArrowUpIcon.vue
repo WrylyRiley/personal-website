@@ -5,7 +5,7 @@
     viewBox="0 0 20 20"
     width="20px"
     height="20px"
-    style="fill: var(--text); transition: all 1s ease"
+    class="icon-main"
   >
     <path
       fill-rule="evenodd"

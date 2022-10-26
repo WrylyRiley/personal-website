@@ -19,6 +19,5 @@ import FooterMain from "./components/Footer/FooterMain.vue";
   width: 100vw;
   margin: 0rem;
   padding: 0rem;
-  transition: all 1s ease;
 }
 </style>

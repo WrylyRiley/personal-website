@@ -1,13 +1,13 @@
 <template>
   <!-- Bunch o' stuff about me -->
-  <div class="about-me-container">
+  <div class="center-center column">
     <div style="position: relative">
       <h3 class="check-us-out">Check us out!</h3>
       <ArrowDownIcon class="check-us-out-arrow" />
       <h3 class="about-me">
-        I'm a full-stack, senior software engieneer at
+        I'm a senior, full-stack software engieneer at
         <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
-          ><span class="summer-sunrise pill">Rocket Money</span></a
+          ><span class="winter-sunset pill highlight">Rocket Money</span></a
         >. My professional specialities lie in
         <span class="react-blue pill">React</span>,
         <span class="react-blue pill">React Native</span>, and backend
@@ -31,13 +31,13 @@ import BouncyBottomArrow from "@/components/BouncyBottomArrow.vue";
 </script>
 
 <style>
+.column {
+  flex-direction: column;
+}
 .about-me-container {
   height: 100%;
   width: 100%;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .about-me {
@@ -72,15 +72,19 @@ import BouncyBottomArrow from "@/components/BouncyBottomArrow.vue";
   /* transform: translate(3rem 5rem); */
   align-self: flex-end;
   position: absolute;
-  top: -3rem;
-  right: -3rem;
+  top: -3.5rem;
+  right: -3.5rem;
   transform: rotate(10deg);
 }
 
 .check-us-out-arrow {
   position: absolute;
-  top: -1rem;
-  right: 1rem;
+  top: -1.25rem;
+  right: 1.25rem;
   transform: rotate(10deg);
+}
+
+.highlight {
+  border: 1px dashed var(--text);
 }
 </style>

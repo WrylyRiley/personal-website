@@ -1,0 +1,17 @@
+.icon {
+  height: 5vmax;
+  width: 5vmax;
+  border-radius: 5rem;
+  background-color: var(--bg);
+  padding: 6px;
+  margin-left: 5px;
+  transition: background-color 1s ease;
+}
+.deluxe-pill .pill {
+  margin-left: 0.5rem;
+}
+
+.logo {
+  height: 5vmax;
+  width: 5vmax;
+}
