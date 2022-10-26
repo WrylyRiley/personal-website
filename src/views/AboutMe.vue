@@ -21,7 +21,7 @@
         <span class="css-blue pill">CSS</span> was done by hand.
       </h3>
     </div>
-    <BouncyBottomArrow />
+    <!-- <BouncyBottomArrow /> -->
   </div>
 </template>
 

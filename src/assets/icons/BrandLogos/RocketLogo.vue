@@ -31,3 +31,9 @@
     />
   </svg>
 </template>
+
+<style lang="css" scoped>
+.st0 {
+  fill: url(#SVGID_1_);
+}
+</style>

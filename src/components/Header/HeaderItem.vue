@@ -1,21 +1,25 @@
-<script setup lang="ts">
-defineProps<{
-  title: string;
-  link: string;
-}>();
-</script>
-
 <template>
-  <RouterLink :to="link" class="router-link">
+  <a :href="`#${link}`" class="link" :class="isActive">
     <div class="nav-button">
       {{ title }}
     </div>
-  </RouterLink>
+  </a>
 </template>
 
+<script setup lang="ts">
+import { stash } from "@/stash";
+import { reactive } from "vue";
+const props = defineProps<{
+  title: string;
+  link: string;
+}>();
+
+const isActive = reactive({ "active-link": props.link == stash.activeLink });
+</script>
+
 <style lang="css" scoped>
-.router-link-exact-active .nav-button {
-  color: var(--text);
+.active-link {
+  color: var(--text) !important;
 }
 
 .nav-button {
@@ -31,11 +35,11 @@ defineProps<{
   transition: all 0.5s ease;
 }
 
-.router-link :hover {
-  color: var(--nav-link-hover) !important;
+.link :hover {
+  color: var(--nav-link-hover);
 }
 
-.router-link {
+.link {
   text-decoration: none;
   height: 50px;
   width: 100px;

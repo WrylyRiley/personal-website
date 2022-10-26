@@ -5,21 +5,24 @@
       :key="'HeaderItem - ' + headerItem.title"
       :title="headerItem.title"
       :link="headerItem.link"
+      @click="stash.activeLink = headerItem.link"
     />
   </header>
 </template>
 
 <script setup lang="ts">
+import { stash } from "@/stash";
 import HeaderItem from "./HeaderItem.vue";
 
 const listOfHeaderItems: {
   title: string;
   link: string;
 }[] = [
-  { title: "Home", link: "/" },
-  { title: "Meetup", link: "/meetup" },
-  { title: "Resume", link: "/resume" },
-  { title: "Skoolie", link: "/skoolie" },
+  { title: "Home", link: "title-page" },
+  { title: "About Me", link: "about-me" },
+  { title: "Meetup", link: "my-meetup" },
+  { title: "Resume", link: "work-done" },
+  { title: "Skoolie", link: "skoolie-adventure" },
 ];
 </script>
 

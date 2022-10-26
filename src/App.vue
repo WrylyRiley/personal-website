@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { RouterView } from "vue-router";
-import HeaderMain from "./components/Header/HeaderMain.vue";
-import FooterMain from "./components/Footer/FooterMain.vue";
+import HeaderMain from "@/components/Header/HeaderMain.vue";
+import FooterMain from "@/components/Footer/FooterMain.vue";
+import MainContainer from "@/views/MainContainer.vue";
 </script>
 
 <template>
   <HeaderMain />
-  <div class="main-bg">
-    <RouterView />
-  </div>
+  <MainContainer class="main-bg" />
   <FooterMain />
 </template>
 

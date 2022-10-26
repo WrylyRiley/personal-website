@@ -3,7 +3,7 @@
     <h1 :class="caretDisplay">{{ typedText }}</h1>
     <h2 :class="subtitleDisplay" class="deluxe-pill center-center">
       <span>I like to</span>
-      <Transition name="fade" mode="out-in" duration="750">
+      <Transition name="fade" mode="out-in" :duration="pillFadeTiming">
         <component :is="codePills[currentCodePillIndex]" />
       </Transition>
     </h2>
@@ -14,7 +14,7 @@
 <script setup lang="ts">
 import BouncyBottomArrow from "@/components/BouncyBottomArrow.vue";
 import { stash } from "@/stash";
-import { onMounted, ref, Transition } from "vue";
+import { onMounted, ref } from "vue";
 // eslint-disable-next-line max-len
 import TypescriptPill from "@/components/DeluxePills/TypescriptPill.vue";
 import NodePill from "@/components/DeluxePills/NodePill.vue";
@@ -23,7 +23,12 @@ import ReactPill from "@/components/DeluxePills/ReactPill.vue";
 import RocketPill from "@/components/DeluxePills/RocketPill.vue";
 import CssPill from "@/components/DeluxePills/CssPill.vue";
 import VuePill from "@/components/DeluxePills/VuePill.vue";
-import { fadeDelayInMs, pillFadeDelay, typingDelayInMs } from "@/constants";
+import {
+  fadeDelayInMs,
+  pillChangeDelay,
+  typingDelayInMs,
+  pillFadeTiming,
+} from "@/constants";
 
 const codePills = [
   TypescriptPill,
@@ -76,7 +81,7 @@ const changeCodePill = (currentIndex: number) => {
     const newIndex =
       currentIndex === codePills.length - 1 ? 0 : currentIndex + 1;
     changeCodePill(newIndex);
-  }, pillFadeDelay);
+  }, pillChangeDelay);
 };
 
 // start writing text

@@ -34,7 +34,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--footer-color);
+  background-color: transparent;
   transition: all 1s ease;
 }
 

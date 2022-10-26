@@ -11,7 +11,6 @@ body {
   --nav-link-unselected: #6c757d;
   --nav-link-hover: #dee2e6;
   --nav-bar-color: #343a40;
-  --footer-color: #212529;
   --dark-slider-light-mode: #e9c46a;
 
   --js-yellow: #ffd600;
@@ -38,7 +37,6 @@ body {
   --nav-link-unselected: #adb5bd;
   --nav-link-hover: #6c757d;
   --nav-bar-color: #e9ecef;
-  --footer-color: #f8f9fa;
 }
 
 h1 {
