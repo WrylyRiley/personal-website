@@ -1,5 +1,5 @@
 <template>
-  <a :href="`#${link}`" class="link" :class="isActive">
+  <a :href="`#${link}`" class="link">
     <div class="nav-button">
       {{ title }}
     </div>
@@ -7,21 +7,13 @@
 </template>
 
 <script setup lang="ts">
-import { stash } from "@/stash";
-import { reactive } from "vue";
-const props = defineProps<{
+defineProps<{
   title: string;
   link: string;
 }>();
-
-const isActive = reactive({ "active-link": props.link == stash.activeLink });
 </script>
 
 <style lang="css" scoped>
-.active-link {
-  color: var(--text) !important;
-}
-
 .nav-button {
   text-decoration: none;
   height: 50px;
