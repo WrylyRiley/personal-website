@@ -132,22 +132,6 @@ onMounted(() => {
   visibility: hidden;
 }
 
-.icon {
-  height: 5vmax;
-  width: 5vmax;
-  border-radius: 5rem;
-  background-color: var(--bg);
-  padding: 6px;
-  margin-left: 5px;
-}
-.deluxe-pill .pill {
-  margin-left: 0.5rem;
-}
-
-.logo {
-  height: 5vmax;
-  width: 5vmax;
-}
 @keyframes fadeIn {
   0% {
     opacity: 0;

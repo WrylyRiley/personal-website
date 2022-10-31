@@ -15,3 +15,15 @@
   height: 5vmax;
   width: 5vmax;
 }
+
+@media (min-width: 1200px) {
+  .icon {
+    height: 5vmin;
+    width: 5vmin;
+  }
+
+  .logo {
+    height: 5vmin;
+    width: 5vmin;
+  }
+}

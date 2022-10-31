@@ -65,6 +65,26 @@ p {
   font-size: 1.3vmax;
 }
 
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 10vmin;
+  }
+
+  h2 {
+    font-size: 5vmin;
+  }
+
+  h3 {
+    font-size: 2vmin;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.3vmin;
+  }
+}
+
 .icon-main {
   fill: var(--text);
   transition: background-color, color 1s ease;

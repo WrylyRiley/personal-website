@@ -21,11 +21,7 @@
     >
       <MyMeetup />
     </section>
-    <section
-      id="work-done"
-      @mouseover="stash.activeLink = 'work-done'"
-      class="child"
-    >
+    <section id="resume" @mouseover="stash.activeLink = 'resume'" class="child">
       <WorkDone />
     </section>
     <section
@@ -42,7 +38,7 @@
 import MainPageTitle from "@/views/TitlePage.vue";
 import AboutMe from "@/views/AboutMe.vue";
 import MyMeetup from "./MyMeetup.vue";
-import WorkDone from "./WorkDone.vue";
+import WorkDone from "./ResumePage.vue";
 import SkoolieAdventure from "./SkoolieAdventure.vue";
 import { stash } from "@/stash";
 </script>
