@@ -3,9 +3,11 @@
     <RocketMoneyResumeItem class="item" />
     <UpsideResumeItem class="item" />
     <DeloitteResumeItem class="item" />
-    <a target="_blank" :href="resumeLink" class="pill ts-blue resume-link">
-      Here's my full resume!</a
-    >
+    <h5>
+      <a target="_blank" :href="resumeLink" class="pill ts-blue resume-link">
+        Here's my full resume!</a
+      >
+    </h5>
   </div>
 </template>
 
@@ -26,13 +28,12 @@ const resumeLink =
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .resume-link {
   margin-top: 2rem;
   text-decoration: none;
-  color: var(--text);
   text-decoration: underline;
   align-self: center;
 }

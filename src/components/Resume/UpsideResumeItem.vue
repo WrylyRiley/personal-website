@@ -6,17 +6,18 @@
       </h3>
       <h4 class="date">Jan 2020 - August 2021</h4>
     </div>
-    <h4 class="content right">
+    <h5 class="content right">
       <div>
         I worked on a full-stack, B2B web app using
         <span class="pill react-blue">React</span> for businesses to manage
         travel for their employees.
         <span class="extra-content"
-          >Despite the Panini affecting business travel, we never stopped
-          working towards adding new and exciting features to the platform</span
+          >Against all odds, we persevered thgough the pandemic and never
+          stopped working towards adding new and exciting features to the
+          platform</span
         >
       </div>
-    </h4>
+    </h5>
   </div>
 </template>
 

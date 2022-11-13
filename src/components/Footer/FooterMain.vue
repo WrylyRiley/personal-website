@@ -39,7 +39,7 @@ import DarkModeSwitch from "./DarkModeSwitch.vue";
 footer {
   position: fixed;
   bottom: 0;
-  height: 35px;
+  height: 50px;
   width: 100vw;
   display: flex;
   align-items: center;

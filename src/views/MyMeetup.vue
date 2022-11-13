@@ -10,10 +10,11 @@
         the
         <span class="rainbow-text">LGBTQIA+ SPECTRUM</span>
       </h3>
+      <br />
       <h3>
         Come check us out! We host monthly-ish events at local coffee shops.
         Bring your kids, bring your laptop, bring that
-        <span class="python-yellow pill">python</span> book that's been
+        <span class="python-yellow pill">Python</span> book that's been
         collecting dust in your desk drawer.
       </h3>
     </div>

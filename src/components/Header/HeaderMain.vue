@@ -14,8 +14,6 @@
 import { stash } from "@/stash";
 import HeaderItem from "./HeaderItem.vue";
 
-defineProps<{ currentPage: number }>();
-
 const listOfHeaderItems: {
   title: string;
   link: string;
