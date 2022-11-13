@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="main-container">
     <section
       id="title-page"
       @mouseover="stash.activeLink = 'title-page'"
@@ -44,7 +44,7 @@ import { stash } from "@/stash";
 </script>
 
 <style lang="css" scoped>
-.container {
+.main-container {
   height: 100%;
   width: 100%;
   overflow-y: scroll;

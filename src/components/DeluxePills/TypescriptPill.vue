@@ -1,5 +1,5 @@
 <template>
-  <div key="1" class="pill center-center ts-blue">
+  <div key="1" class="deluxe-pill center-spread ts-blue">
     code
     <div class="icon center-center">
       <TypescriptLogo class="logo" />

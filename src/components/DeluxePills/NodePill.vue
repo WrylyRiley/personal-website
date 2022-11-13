@@ -1,5 +1,5 @@
 <template>
-  <div key="2" class="pill center-center node-green">
+  <div key="2" class="deluxe-pill center-spread node-green">
     code
     <div class="icon center-center">
       <NodeLogo class="logo" />

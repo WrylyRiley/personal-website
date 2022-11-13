@@ -1,0 +1,59 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* These are the same below small break */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+@media (min-width: 500px) {
+  .right {
+    align-self: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+.job {
+  flex-direction: column;
+  margin-top: 1rem;
+  max-width: 90vw;
+}
+
+.date {
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
+
+.content {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .extra-content {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    width: 80vw;
+  }
+}
+
+/* @media (max-width: 500px) {
+  .content {
+    display: none;
+  }
+} */

@@ -4,7 +4,7 @@
       <DarkModeSwitch />
       <div class="dark-mode-hint center-center">
         <ArrowleftIcon class="dark-mode-pointer" />
-        <p>Don't like dark mode? It's ok to have opinions.</p>
+        <p>Don't like dark mode? <br />It's ok to have opinions.</p>
       </div>
     </div>
     <div class="social-container">
@@ -26,6 +26,16 @@ import DarkModeSwitch from "./DarkModeSwitch.vue";
 </script>
 
 <style lang="css" scoped>
+@media (max-width: 500px) {
+  .social-hint {
+    visibility: hidden;
+  }
+
+  .dark-mode-hint {
+    visibility: hidden;
+  }
+}
+
 footer {
   position: fixed;
   bottom: 0;

@@ -1,5 +1,5 @@
 <template>
-  <div class="pill center-center js-yellow">
+  <div class="deluxe-pill center-spread js-yellow">
     code
     <div class="icon center-center">
       <JavascriptLogo class="logo" />

@@ -1,17 +1,17 @@
 <template>
-  <div class="center-center container">
+  <div class="center-center meetup-container">
     <div class="center-center meetup">
-      <h3>I run a coding meetup in Frederick, MD called</h3>
+      <h3>I run a meetup in Frederick, MD called</h3>
       <h3 class="coffee-text pill">👩‍💻 Frederick Code & Coffee ☕</h3>
       <h3>
-        We're a fledgeling group of locals that like programming and dirty bean
-        water at the same time. We welcome everybody and anybody no matter your
-        platform, language, or preferred operating system. We're queer led and a
-        safe space for anyone in the
+        We're a fledgeling group of locals that like programming and caffeine.
+        We welcome everybody and anybody no matter your preferred language,
+        platform, or OS. We're proudly queer led and a safe space for anyone in
+        the
         <span class="rainbow-text">LGBTQIA+ SPECTRUM</span>
       </h3>
       <h3>
-        Come check us out! We host monthly-ish events a local coffee shops.
+        Come check us out! We host monthly-ish events at local coffee shops.
         Bring your kids, bring your laptop, bring that
         <span class="python-yellow pill">python</span> book that's been
         collecting dust in your desk drawer.
@@ -23,20 +23,27 @@
 <script setup lang="ts"></script>
 
 <style lang="css" scoped>
-.container {
+.meetup-container {
   height: 100%;
   width: 100%;
 }
 
 .meetup {
-  width: 55vw;
+  width: 80vw;
   position: relative;
   flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .meetup {
+    width: 75vw;
+  }
 }
 
 .coffee-text {
   background-color: darkgoldenrod;
   white-space: nowrap;
+  padding: 0 1rem;
 }
 
 .rainbow-text {

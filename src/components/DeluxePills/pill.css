@@ -1,19 +1,23 @@
 .icon {
-  height: 5vmax;
-  width: 5vmax;
+  height: 4vmax;
+  width: 4vmax;
   border-radius: 5rem;
   background-color: var(--bg);
-  padding: 6px;
+  padding: 0.4rem;
   margin-left: 5px;
   transition: background-color 1s ease;
 }
-.deluxe-pill .pill {
+
+.deluxe-pill {
+  border-radius: 10rem;
+  white-space: nowrap;
   margin-left: 0.5rem;
+  padding: 4px 6px 4px 8px;
 }
 
 .logo {
-  height: 5vmax;
-  width: 5vmax;
+  height: 4vmax;
+  width: 4vmax;
 }
 
 @media (min-width: 1200px) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="pill center-center winter-sunset">
+  <div class="deluxe-pill center-spread winter-sunset">
     code
     <div class="icon center-center">
       <RocketLogo class="logo" />

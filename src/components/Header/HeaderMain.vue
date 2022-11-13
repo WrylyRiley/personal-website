@@ -14,6 +14,8 @@
 import { stash } from "@/stash";
 import HeaderItem from "./HeaderItem.vue";
 
+defineProps<{ currentPage: number }>();
+
 const listOfHeaderItems: {
   title: string;
   link: string;
@@ -27,6 +29,11 @@ const listOfHeaderItems: {
 </script>
 
 <style lang="css" scoped>
+@media (max-width: 500px) {
+  .header-main {
+    display: none;
+  }
+}
 .header-main {
   position: sticky;
   top: 0;

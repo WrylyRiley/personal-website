@@ -1,5 +1,5 @@
 <template>
-  <div class="pill center-center vue-green">
+  <div class="deluxe-pill center-spread vue-green">
     code
     <div class="icon center-center">
       <VueLogo class="logo" />

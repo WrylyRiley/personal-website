@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="dark-mode-container">
     <label class="switch">
       <input v-model="checkboxInput" type="checkbox" />
       <span class="slider"></span>
@@ -30,7 +30,7 @@ watch(checkboxInput, (checked) => {
 </script>
 
 <style lang="css" scoped>
-.container {
+.dark-mode-dark-mode-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;

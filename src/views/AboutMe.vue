@@ -2,8 +2,8 @@
   <!-- Bunch o' stuff about me -->
   <div class="center-center column">
     <div style="position: relative">
-      <h3 class="check-us-out">Check us out!</h3>
-      <ArrowDownIcon class="check-us-out-arrow" />
+      <!-- <h3 class="check-us-out">Check us out!</h3>
+      <ArrowDownIcon class="check-us-out-arrow" /> -->
       <h3 class="about-me">
         I'm a senior, full-stack software engieneer at
         <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
@@ -26,14 +26,14 @@
 </template>
 
 <script setup lang="ts">
-import ArrowDownIcon from "@/assets/icons/ArrowDownIcon.vue";
-import BouncyBottomArrow from "@/components/BouncyBottomArrow.vue";
+//
 </script>
 
 <style>
 .column {
   flex-direction: column;
 }
+
 .about-me-container {
   height: 100%;
   width: 100%;
@@ -41,7 +41,13 @@ import BouncyBottomArrow from "@/components/BouncyBottomArrow.vue";
 }
 
 .about-me {
-  width: 55vw;
+  width: 75vw;
+}
+
+@media (min-width: 800px) {
+  .about-me {
+    width: 75vw;
+  }
 }
 
 .social-pointer-container {

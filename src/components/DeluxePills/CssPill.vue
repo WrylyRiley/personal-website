@@ -1,5 +1,5 @@
 <template>
-  <div class="pill center-center css-blue">
+  <div class="deluxe-pill center-spread css-blue">
     code
     <div class="icon center-center">
       <CssLogo

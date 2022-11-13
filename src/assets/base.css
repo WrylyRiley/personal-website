@@ -20,9 +20,20 @@ body {
   --ts-blue: #3178c6;
   --css-blue: #264de4;
   --python-yellow: #ffde57;
+  --angular-red: #b52e31;
+  --arango-green: #556739;
 
+  --upside-purple: #8e4eca;
+  --deloitte-green: #86bc25;
+  --truebill-blue: #56a6f8;
   --spaceship-purple: #603aa1;
   --spaceship-red: #c8102e;
+
+  /* --xs-break: 375px; */
+  /* --s-break: 500px; */
+  /* --m-break: 750px; */
+  /* --l-break: 1200px; */
+  /* --xl-break: 2000px; */
 
   /* Fonts */
   background-color: var(--bg);
@@ -42,20 +53,28 @@ body {
 h1 {
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 10vmax;
+  font-size: 7.5vmax;
 }
 
 h2 {
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 5vmax;
+  font-size: 4vmax;
 }
 
 h3 {
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-size: 2vmax;
-  line-height: 3rem;
+  font-size: 2.5vmax;
+  line-height: 2rem;
+  text-align: center;
+}
+
+h4 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-size: 2.25vmax;
+  line-height: 2rem;
   text-align: center;
 }
 
@@ -65,23 +84,57 @@ p {
   font-size: 1.3vmax;
 }
 
-@media (min-width: 1200px) {
+.pill {
+  border-radius: 10rem;
+  padding: 0 0.5rem;
+  white-space: nowrap;
+}
+
+@media (min-width: 500px) {
   h1 {
-    font-size: 10vmin;
+    font-size: 10vmax;
   }
 
   h2 {
-    font-size: 5vmin;
+    font-size: 5vmax;
   }
 
   h3 {
-    font-size: 2vmin;
-    line-height: 3rem;
-    text-align: center;
+    font-size: 3vmax;
+    line-height: 2.5rem;
+  }
+
+  h4 {
+    font-size: 2vmax;
+    line-height: 1.25rem;
   }
 
   p {
-    font-size: 1.3vmin;
+    font-size: 1.3vmax;
+  }
+}
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 12vmax;
+  }
+
+  h2 {
+    font-size: 6vmax;
+  }
+
+  h3 {
+    font-size: 3.75vmax;
+    line-height: 3.75rem;
+  }
+
+  h4 {
+    font-size: 2.5vmax;
+    line-height: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3vmax;
   }
 }
 
@@ -96,13 +149,11 @@ p {
   justify-content: center;
 }
 
-.pill {
-  border-radius: 5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  white-space: nowrap;
+.center-spread {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
 /* Animations */
 
 @keyframes smolShakeUp {
@@ -176,4 +227,29 @@ p {
 .python-yellow {
   background-color: var(--python-yellow);
   color: var(--black-text);
+}
+
+.angular-red {
+  background-color: var(--angular-red);
+  color: var(--white-text);
+}
+
+.arango-green {
+  background-color: var(--arango-green);
+  color: var(--white-text);
+}
+
+.truebill-blue {
+  background-color: var(--truebill-blue);
+  color: var(--black-text);
+}
+
+.deloitte-green {
+  background-color: var(--deloitte-green);
+  color: var(--black-text);
+}
+
+.upside-purple {
+  background-color: var(--upside-purple);
+  color: var(--white-text);
 }

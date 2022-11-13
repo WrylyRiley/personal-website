@@ -1,5 +1,5 @@
 <template>
-  <div class="pill center-center react-blue">
+  <div class="deluxe-pill center-spread react-blue">
     code
     <div class="icon center-center">
       <ReactLogo class="logo" />
