@@ -8,14 +8,14 @@
     </div>
     <h4 class="content left">
       <div>
-        I worked on a small team to bring a product to life that allows a
-        company to visualize all of a company's various workstreams and allow
-        them to see where there are bottlenecks.
-        <span class="extra-content"
-          >This was built with
-          <span class="pill angular-red">Angular 8</span> with an
-          <span class="pill arango-green">ArangoDB graph database</span></span
-        >
+        small team. BIG DREAMS. We were a tiny team using
+        <span class="pill angular-red">Angular 8</span> with an
+        <span class="pill arango-green">ArangoDB</span> to visualize workflows.
+        <span class="extra-content">
+          Our goal was to have out clients be able to analyze all of their
+          product and service workflows, and then funnel them into using our
+          consulting services for optimization
+        </span>
       </div>
     </h4>
   </div>

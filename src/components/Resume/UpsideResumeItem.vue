@@ -10,7 +10,7 @@
       <div>
         I worked on a full-stack, B2B web app using
         <span class="pill react-blue">React</span> for businesses to manage
-        flights, hotels, and rental cars for their employees.
+        travel for their employees.
         <span class="extra-content"
           >Despite the Panini affecting business travel, we never stopped
           working towards adding new and exciting features to the platform</span

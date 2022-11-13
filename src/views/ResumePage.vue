@@ -27,7 +27,6 @@ const resumeLink =
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  border: 1px solid rebeccapurple;
 }
 
 .resume-link {
