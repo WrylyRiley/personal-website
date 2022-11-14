@@ -30,3 +30,12 @@ jobs:
       run: npm ci
     - name: Buils app with Vite
       run: npm run build --if-present
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      with:
+        folder: dist
+      on:
+        push:
+          branches:
+            - main
+
