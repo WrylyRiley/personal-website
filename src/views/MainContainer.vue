@@ -24,13 +24,13 @@
     <section id="resume" @mouseover="stash.activeLink = 'resume'" class="child">
       <WorkDone />
     </section>
-    <section
+    <!-- <section
       id="skoolie-adventure"
       @mouseover="stash.activeLink = 'skoolie-adventure'"
       class="child"
     >
       <SkoolieAdventure />
-    </section>
+    </section> -->
   </main>
 </template>
 

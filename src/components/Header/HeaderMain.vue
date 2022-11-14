@@ -22,7 +22,7 @@ const listOfHeaderItems: {
   { title: "About Me", link: "about-me" },
   { title: "Meetup", link: "my-meetup" },
   { title: "Resume", link: "resume" },
-  { title: "Skoolie", link: "skoolie-adventure" },
+  // { title: "Skoolie", link: "skoolie-adventure" },
 ];
 </script>
 
