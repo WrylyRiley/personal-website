@@ -42,3 +42,17 @@
     margin-bottom: 8px;
   }
 }
+
+@media (min-width: 1000px) {
+  .content {
+    width: 50vw;
+  }
+
+  .job {
+    margin-bottom: 12px;
+  }
+
+  .date {
+    margin-bottom: 12px;
+  }
+}

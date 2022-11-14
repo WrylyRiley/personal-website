@@ -1,5 +1,5 @@
 <template>
-  <a :href="`#${link}`" class="link" :class="active">
+  <a :href="`#${link}`" class="link">
     <div class="nav-button">
       {{ title }}
     </div>
@@ -7,14 +7,10 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-
 defineProps<{
   title: string;
   link: string;
 }>();
-
-const active = ref();
 </script>
 
 <style lang="css" scoped>

@@ -32,8 +32,8 @@ body {
   /* --xs-break: 375px; */
   /* --s-break: 500px; */
   /* --m-break: 750px; */
-  /* --l-break: 1200px; */
-  /* --xl-break: 2000px; */
+  /* --l-break: 1000px; */
+  /* --xl-break: 1500px; */
 
   /* Fonts */
   background-color: var(--bg);
@@ -120,7 +120,6 @@ p {
   h5 {
     font-size: 1.75vmax;
     line-height: 1.25rem;
-    text-align: center;
   }
 
   p {
@@ -150,7 +149,6 @@ p {
   h5 {
     font-size: 2vmax;
     line-height: 1.75rem;
-    text-align: center;
   }
 
   p {
@@ -168,19 +166,18 @@ p {
   }
 
   h3 {
-    font-size: 3vmax;
-    line-height: 4.5rem;
+    font-size: 2.5vmax;
+    line-height: 3rem;
   }
 
   h4 {
-    font-size: 2.5vmax;
-    line-height: 1.5rem;
+    font-size: 1.75vmax;
+    line-height: 1.25rem;
   }
 
   h5 {
-    font-size: 2vmax;
-    line-height: 2.5rem;
-    text-align: center;
+    font-size: 1.25vmax;
+    line-height: 1.5rem;
   }
 
   p {

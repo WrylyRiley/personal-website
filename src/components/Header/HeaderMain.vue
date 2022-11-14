@@ -5,13 +5,11 @@
       :key="'HeaderItem - ' + headerItem.title"
       :title="headerItem.title"
       :link="headerItem.link"
-      @click="stash.activeLink = headerItem.link"
     />
   </header>
 </template>
 
 <script setup lang="ts">
-import { stash } from "@/stash";
 import HeaderItem from "./HeaderItem.vue";
 
 const listOfHeaderItems: {
