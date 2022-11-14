@@ -2,31 +2,26 @@
   <main class="main-container">
     <section
       id="title-page"
-      @mouseover="stash.activeLink = 'title-page'"
-      class="child"
+            class="child"
     >
       <MainPageTitle class="main-title" />
     </section>
     <section
       id="about-me"
-      @mouseover="stash.activeLink = 'about-me'"
       class="child"
     >
       <AboutMe />
     </section>
     <section
       id="my-meetup"
-      @mouseover="stash.activeLink = 'my-meetup'"
       class="child"
     >
       <MyMeetup />
     </section>
-    <section id="resume" @mouseover="stash.activeLink = 'resume'" class="child">
       <WorkDone />
     </section>
     <!-- <section
       id="skoolie-adventure"
-      @mouseover="stash.activeLink = 'skoolie-adventure'"
       class="child"
     >
       <SkoolieAdventure />
