@@ -5,7 +5,7 @@
       <!-- <h3 class="check-us-out">Check us out!</h3>
       <ArrowDownIcon class="check-us-out-arrow" /> -->
       <h3 class="about-me">
-        I'm a senior, full-stack software engieneer at
+        I'm a senior, full-stack software engineer at
         <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
           ><span class="winter-sunset pill highlight">Rocket Money</span></a
         >. My professional specialities lie in
@@ -13,7 +13,7 @@
         <span class="react-blue pill">React Native</span>, and backend
         <span class="node-green pill">NodeJS</span>, all with
         <span class="ts-blue pill">Typescript</span> as my preferred language ,
-        though in a pinch I'll concede to using
+        though in a pinch I'll concede to using vanilla
         <span class="js-yellow pill">Javascript</span>. This website was written
         in <span class="vue-green pill">Vue3</span> using the new composition
         API as a fun way to learn something new.

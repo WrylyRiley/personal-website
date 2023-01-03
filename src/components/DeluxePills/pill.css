@@ -5,7 +5,6 @@
   background-color: var(--bg);
   padding: 0.4rem;
   margin-left: 5px;
-  transition: background-color 1s ease;
 }
 
 .deluxe-pill {
@@ -16,18 +15,42 @@
 }
 
 .logo {
-  height: 4vmax;
-  width: 4vmax;
+  height: 3.5vmax;
+  width: 3.5vmax;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 900px) {
   .icon {
-    height: 5vmax;
-    width: 5vmax;
+    height: 4.5vmax;
+    width: 4.5vmax;
   }
 
   .logo {
-    height: 5vmax;
-    width: 5vmax;
+    height: 4.5vmax;
+    width: 4.5vmax;
+  }
+}
+
+@media (min-width: 1500px) {
+  .icon {
+    height: 6vmax;
+    width: 6vmax;
+  }
+
+  .logo {
+    height: 6vmax;
+    width: 6vmax;
+  }
+}
+
+@media (min-width: 2000px) {
+  .icon {
+    height: 4vmax;
+    width: 4vmax;
+  }
+
+  .logo {
+    height: 4vmax;
+    width: 4vmax;
   }
 }

@@ -24,7 +24,6 @@ defineProps<{
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1px;
-  transition: all 0.5s ease;
 }
 
 .link :hover {

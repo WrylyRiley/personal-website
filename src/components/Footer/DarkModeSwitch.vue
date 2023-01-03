@@ -58,7 +58,6 @@ watch(checkboxInput, (checked) => {
   opacity: 0;
   width: 0;
   height: 0;
-  transition: all 1s ease;
 }
 
 .slider-selected {
@@ -72,7 +71,6 @@ watch(checkboxInput, (checked) => {
   inset: 0;
   background-color: var(--bg);
   border-radius: 34px;
-  transition: all 1s ease;
 }
 
 .slider:before {

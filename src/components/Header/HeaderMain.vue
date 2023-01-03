@@ -36,6 +36,5 @@ const listOfHeaderItems: {
   right: 0;
   left: 0;
   background-color: var(--nav-bar-color);
-  transition: background-color 1s ease;
 }
 </style>

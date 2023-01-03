@@ -6,7 +6,7 @@
     <a href="https://www.twitter.com/pixelrabbitcode">
       <TwitterIcon class="icon" />
     </a>
-    <a href="mailto:wryr1ley@gmail.com">
+    <a href="mailto:rileyis@herdeskworking.com">
       <EmailIcon class="icon" />
     </a>
   </div>

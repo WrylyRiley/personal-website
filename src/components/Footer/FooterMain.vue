@@ -4,7 +4,7 @@
       <DarkModeSwitch />
       <div class="dark-mode-hint center-center">
         <ArrowleftIcon class="dark-mode-pointer" />
-        <p>Don't like dark mode? <br />It's ok to have opinions.</p>
+        <p>Don't like dark mode?</p>
       </div>
     </div>
     <div class="social-container">
@@ -45,7 +45,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  transition: all 1s ease;
 }
 
 .dark-mode-container {

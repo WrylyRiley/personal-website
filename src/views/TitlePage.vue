@@ -1,6 +1,6 @@
 <template>
   <div class="box center-center">
-    <h1 :class="caretDisplay">{{ typedText }}</h1>
+    <h1 class="title" :class="caretDisplay">{{ typedText }}</h1>
     <h2 :class="subtitleDisplay" class="deluxe-pill center-center">
       <span>I like to</span>
       <Transition name="fade" mode="out-in" :duration="pillFadeTiming">
@@ -101,6 +101,10 @@ onMounted(() => {
 <style>
 .box {
   flex-direction: column;
+}
+
+.title {
+  text-align: center;
 }
 
 .arrow-on {

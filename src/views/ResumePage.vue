@@ -19,7 +19,7 @@ import RocketMoneyResumeItem from "@/components/Resume/RocketMoneyResumeItem.vue
 
 const resumeLink =
   // eslint-disable-next-line max-len
-  "https://drive.google.com/file/d/1rydAUgFGIs4mNFpZSWIF0QFZ3UHtkObj/view?usp=sharing";
+  "https://drive.google.com/file/d/12UiJGDCOIYsj7jz8NdMiJnccCmtoQzZh/view?usp=sharing";
 </script>
 
 <style lang="css" scoped>
@@ -36,5 +36,11 @@ const resumeLink =
   text-decoration: none;
   text-decoration: underline;
   align-self: center;
+}
+
+@media (min-width: 900px) {
+  .resume-page {
+    width: 75vw;
+  }
 }
 </style>
