@@ -1,8 +1,8 @@
 <template>
   <div class="resume-page">
-    <RocketMoneyResumeItem class="item" />
-    <UpsideResumeItem class="item" />
-    <DeloitteResumeItem class="item" />
+    <RocketMoneyResumeItem />
+    <UpsideResumeItem />
+    <DeloitteResumeItem />
     <h5>
       <a target="_blank" :href="resumeLink" class="pill ts-blue resume-link">
         Here's my full resume!</a
@@ -38,7 +38,7 @@ const resumeLink =
   align-self: center;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) {
   .resume-page {
     width: 75vw;
   }
