@@ -12,13 +12,6 @@
     <section id="resume" class="child">
       <WorkDone />
     </section>
-    <!-- <section
-      id="skoolie-adventure"
-      @mouseover="stash.activeLink = 'skoolie-adventure'"
-      class="child"
-    >
-      <SkoolieAdventure />
-    </section> -->
   </main>
 </template>
 
@@ -27,7 +20,6 @@ import MainPageTitle from "@/views/TitlePage.vue";
 import AboutMe from "@/views/AboutMe.vue";
 import MyMeetup from "./MyMeetup.vue";
 import WorkDone from "./ResumePage.vue";
-// import SkoolieAdventure from "./SkoolieAdventure.vue";
 </script>
 
 <style lang="css" scoped>
@@ -45,8 +37,6 @@ import WorkDone from "./ResumePage.vue";
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid red;
-  padding: 1px 1px 1px 1px; */
   scroll-snap-align: start;
 }
 

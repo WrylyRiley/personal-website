@@ -8,15 +8,15 @@
         I'm a senior, full-stack software engineer at
         <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
           ><span class="winter-sunset pill highlight">Rocket Money</span></a
-        >. My professional specialities lie in
+        >. My professional specialties lie in
         <span class="react-blue pill">React</span>,
         <span class="react-blue pill">React Native</span>, and backend
         <span class="node-green pill">NodeJS</span>, all with
         <span class="ts-blue pill">Typescript</span> as my preferred language ,
         though in a pinch I'll concede to using vanilla
         <span class="js-yellow pill">Javascript</span>. This website was written
-        in <span class="vue-green pill">Vue3</span> using the new composition
-        API as a fun way to learn something new.
+        in <span class="vue-green pill">Vue3</span> using the composition API as
+        a fun way to learn something new.
         <span style="text-decoration: line-through">All</span> Most of the
         <span class="css-blue pill">CSS</span> was done by hand.
       </h3>
