@@ -6,7 +6,7 @@
     <a href="https://www.twitter.com/pixelrabbitcode">
       <TwitterIcon class="icon" />
     </a>
-    <a href="mailto:rileyis@herdeskworking.com">
+    <a href="mailto:rileyis@homewriting.software">
       <EmailIcon class="icon" />
     </a>
   </div>
@@ -14,7 +14,6 @@
 
 <script setup lang="ts">
 import LinkedInIcon from "@/assets/icons/BrandLogos/LinkedInIcon.vue";
-import TwitterIcon from "@/assets/icons/BrandLogos/TwitterIcon.vue";
 import EmailIcon from "@/assets/icons/EmailIcon.vue";
 </script>
 
