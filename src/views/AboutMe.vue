@@ -1,26 +1,39 @@
 <template>
   <!-- Bunch o' stuff about me -->
   <div class="center-center column">
-    <div style="position: relative">
-      <!-- <h3 class="check-us-out">Check us out!</h3>
-      <ArrowDownIcon class="check-us-out-arrow" /> -->
-      <h3 class="about-me">
-        I'm a senior, full-stack software engineer at
-        <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
-          ><span class="winter-sunset pill highlight">Rocket Money</span></a
-        >. My professional specialties lie in
-        <span class="react-blue pill">React</span>,
-        <span class="react-blue pill">React Native</span>, and backend
-        <span class="node-green pill">NodeJS</span>, all with
-        <span class="ts-blue pill">Typescript</span> as my preferred language ,
-        though in a pinch I'll concede to using vanilla
-        <span class="js-yellow pill">Javascript</span>. This website was written
-        in <span class="vue-green pill">Vue3</span> using the composition API as
-        a fun way to learn something new.
-        <span style="text-decoration: line-through">All</span> Most of the
-        <span class="css-blue pill">CSS</span> was done by hand.
-      </h3>
-    </div>
+    <!-- <div style="position: relative"> -->
+    <h3 class="about-me">
+      I'm a senior, full-stack software engineer at
+      <a href="https://www.rocketmoney.com" target="_blank" class="rm-link"
+        ><span class="winter-sunset pill highlight">Rocket Money</span></a
+      >. My professional specialties lie in
+      <span class="react-blue pill">React</span>,
+      <span class="react-blue pill">React Native</span>, and backend
+      <span class="node-green pill">NodeJS</span>, all with
+      <span class="ts-blue pill">Typescript</span> as my preferred language ,
+      though in a pinch I'll concede to using vanilla
+      <span class="js-yellow pill">Javascript</span>. This website was written
+      in <span class="vue-green pill">Vue3</span> using the composition API as a
+      fun way to learn something new.
+      <span style="text-decoration: line-through">All</span> Most of the
+      <span class="css-blue pill">CSS</span> was done by hand.
+    </h3>
+    &nbsp;
+    <h3 class="about-me">
+      Lately, my work has focused on incorporating
+      <span class="pill ai">LLMs</span> into our products and offerings. Over
+      the last two years, we operated like a startup within the company, and
+      rapidly iterated with emerging AI technologies. Out of these initiatives
+      came a <span class="winter-sunset pill">phone bot</span> that runs 2000+
+      subscription cancellations every day, a
+      <span class="winter-sunset pill">web bot</span> that can traverse the DOM
+      to figure out cancellations on-the-fly, and an
+      <span class="winter-sunset pill">RCS chat bot</span>
+      that gives users guidance on their financial health through the use of
+      fast, meaningful interactions, contextual reminders, and traditional CRM
+      touchpoints.
+    </h3>
+    <!-- </div> -->
     <!-- <BouncyBottomArrow /> -->
   </div>
 </template>
@@ -88,5 +101,9 @@
 
 .highlight {
   border: 1px dashed var(--text);
+}
+
+.ai {
+  background-color: #cc785c;
 }
 </style>

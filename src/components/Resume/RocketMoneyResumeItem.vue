@@ -14,9 +14,9 @@
         <span class="pill react-blue">React Native</span> personal finance
         management app, and the associated web UI with
         <span class="pill react-blue">React</span>. About a quarter of my time
-        is focused on marketing and analytics engineering, and the rest is
-        working cross-team with product, infrastructure, internal tooling,
-        architecture, feature development, and more!
+        is focused on CRM engineering, and the rest is working cross-team with
+        product, infrastructure, internal tooling, architecture, feature
+        development, AI & LLMs, and more!
       </div>
     </h5>
   </div>

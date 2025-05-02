@@ -1,26 +1,34 @@
 <template>
   <div class="center-center meetup-container">
     <div class="center-center meetup">
-      <h3>I run a meetup in Frederick, MD called</h3>
-      <h3 class="coffee-text pill">👩‍💻 Frederick Code & Coffee ☕</h3>
       <h3>
-        We're a group of locals that like programming and caffeine. We welcome
-        everybody and anybody no matter your preferred language, platform, or
-        OS. We're proudly queer-led and a safe space for anyone in the
-        <span class="rainbow-text">LGBTQIA+ SPECTRUM</span>
-      </h3>
-      <br />
-      <h3>
-        <a href="https://www.meetup.com/frederick-code-and-coffee/"
-          >Come check us out!</a
-        >
-        We host monthly-ish events at local coffee shops. Bring your kids, bring
-        your laptop, bring that
-        <span class="python-yellow pill">Python</span> book that's been
-        collecting dust in your desk drawer. We're also part of the
-        <a href="https://www.meetup.com/frederick-code-and-coffee/">
-          greater Code & Coffee Community
+        From September 2022 to April 2025, I ran a local chapter of &nbsp;
+        <a style="text-decoration: none" href="https://codeandcoffee.org/">
+          <span class="coffee pill low-underline">👩‍💻 Code & Coffee ☕</span>
         </a>
+        in Frederick, MD. It was a group of locals that like programming and
+        caffeine. We welcomed everybody no matter your preferred language,
+        platform, or OS. I'm proud of the time I spent organizing that group.
+      </h3>
+      &nbsp;
+      <h3>
+        It was one of many meetups in town that catered to anyone, but I rarely
+        saw folks like myself there, so as of April 2025, I've pivoted to
+        running a meetup called
+        <a
+          style="text-decoration: none"
+          href="https://www.meetup.com/queer-coded/?eventOrigin=home_groups_you_organize/"
+        >
+          <span class="qc pill low-underline">🌈Queer Coded🌈</span></a
+        >, a tech-focused meetup and safe space for everyone in the
+        <span class="rainbow-text">&nbsp;&nbsp;LGBTQIA+ SPECTRUM</span>
+      </h3>
+      &nbsp;
+      <h3>
+        We host monthly-ish events at a local coffee shop. Bring your authentic
+        self, and bring your laptop, and bring that
+        <span class="python-yellow pill">Python</span> book that's been
+        collecting dust in your desk drawer!
       </h3>
     </div>
   </div>
@@ -46,10 +54,24 @@
   }
 }
 
-.coffee-text {
+.coffee {
   background-color: darkgoldenrod;
-  white-space: nowrap;
   padding: 0 1rem;
+  color: var(--text);
+}
+
+.qc {
+  background-color: #e0d3fa;
+  padding: 0 1rem;
+  color: var(--black-text);
+}
+
+.low-underline {
+  text-decoration-line: underline;
+  text-decoration-color: currentColor;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
 }
 
 .rainbow-text {
