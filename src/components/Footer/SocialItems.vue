@@ -3,9 +3,6 @@
     <a href="https://www.linkedin.com/rileybauerdev">
       <LinkedInIcon class="icon" />
     </a>
-    <a href="https://www.twitter.com/pixelrabbitcode">
-      <TwitterIcon class="icon" />
-    </a>
     <a href="mailto:rileyis@homewriting.software">
       <EmailIcon class="icon" />
     </a>
