@@ -4,7 +4,11 @@
     <UpsideResumeItem />
     <DeloitteResumeItem />
     <h5>
-      <a target="_blank" :href="resumeLink" class="pill ts-blue resume-link">
+      <a
+        target="_blank"
+        href="https://homewriting.software/resume"
+        class="pill ts-blue resume-link"
+      >
         Here's my full resume!</a
       >
     </h5>
@@ -16,10 +20,6 @@ import DeloitteResumeItem from "@/components/Resume/DeloitteResumeItem.vue";
 import UpsideResumeItem from "@/components/Resume/UpsideResumeItem.vue";
 // eslint-disable-next-line max-len
 import RocketMoneyResumeItem from "@/components/Resume/RocketMoneyResumeItem.vue";
-
-const resumeLink =
-  // eslint-disable-next-line max-len
-  "https://drive.google.com/file/d/1bgzw1ranp16vyJtMviFjCfXoGgVzGeLA/view?usp=sharing";
 </script>
 
 <style lang="css" scoped>
